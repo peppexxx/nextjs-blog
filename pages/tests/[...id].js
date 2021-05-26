@@ -1,7 +1,7 @@
 // useRouter permette di accedere al router e di navigare tra le pagine o mappare eventi
 import {useRouter} from 'next/router'
 
-export default async function getStaticPaths() {
+export async function getStaticPaths() {
     return [
         {
           params: {
@@ -13,7 +13,7 @@ export default async function getStaticPaths() {
       ]
 }
 
-export default function getStaticProps({params}) {
+export function getStaticProps({params}) {
     // params.id sarà come ['a', 'b', 'c']
 }
 
