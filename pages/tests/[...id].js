@@ -13,7 +13,7 @@ export async function getStaticPaths() {
       ]
 }
 
-export function getStaticProps({params}) {
+export async function getStaticProps({params}) {
     // params.id sarà come ['a', 'b', 'c']
 }
 
