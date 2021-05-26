@@ -1,0 +1,21 @@
+/* 
+    MODULO CSS 
+    1 - Per utilizzare i moduli CSS, il nome del file deve terminare con .module.css 
+    2 - Genera automaticamente nomi di classi univoci, Finchè si usano i moduli, non bisogna preoccuparsi delle collisioni tra i nomi di classi
+    3 - Assicura che venga caricata la quantità minima di CSS per ogni pagina.
+*/
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
