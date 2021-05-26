@@ -15,6 +15,11 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params}) {
     // params.id sarà come ['a', 'b', 'c']
+    return {
+        props: {
+            
+        }
+    }
 }
 
 
