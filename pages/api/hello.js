@@ -3,7 +3,6 @@ export default function handler(req,res) {
     res.status(200).json({text: 'Hello'})
 }
 
-
 // INFO: 
 // - Non recuperare un percorso API da "getStaticProps" o "getStaticPaths", scrivere il codice lato server direttamente in "getStaticProps" o "getStaticPaths"
 // - "getStaticProps" o "getStaticPaths" funziona solo su lato server! Non verrà mai eseguito sul lato client. Non sarà nemmeno incluso nel pacchetto JS per il browser.
