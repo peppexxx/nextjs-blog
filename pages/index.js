@@ -49,7 +49,7 @@ export default function Home({allPostsData}) {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>My name is Giuseppeeeeeeeeeeeeeeee, i have 26 years old and i like programming web</p>
+          <p>My name is Giuseppe, i have 26 years old and i like programming web</p>
           <p>
             (This is a sample website - you’ll be building a site like this on{' '}
             <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
